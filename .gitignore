@@ -1,14 +1,13 @@
-
 # dependencies
 node_modules/
 
-# expo
+# Expo
 .expo/
 dist/
 web-build/
 expo-env.d.ts
 
-# native
+# Native
 *.orig.*
 *.jks
 *.p8
@@ -19,9 +18,10 @@ expo-env.d.ts
 # macOS
 .DS_Store
 
-# local env files
+# Environment files
 .env
-.env.*.local
+.env.*
+!.env.example
 
-# teaching materials
+# Teaching materials
 docs/
